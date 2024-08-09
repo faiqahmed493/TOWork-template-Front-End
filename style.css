@@ -1,57 +1,1400 @@
-*{
+/* Global reset */
+* {
      margin: 0;
      padding: 0;
-     box-sizing: border-box; 
+     box-sizing: border-box;
 }
-/* container-1 */
+ 
+ /* container-1 */
 .container-1 {
-     height: 40rem;
+     height: 55rem;
      background-image: url("hero-bg.png");
      background-position: center;
      background-size: cover;
      background-repeat: no-repeat;
+     /* position: absolute; */
 }
-.nav{
+ 
+.nav {
      height: 102px;
      padding: 0 4rem;
      display: flex;
-     width: 100%;
+     /* width: 100%; */
 }
-.content-nav{
+ 
+.content-nav {
      margin-top: 2rem;
-     display:flex;
+     display: flex;
      flex-direction: row;
-     height: 70px ; 
+     height: 70px;
      width: 100%;
      justify-content: space-between;
      align-items: center;
-     
 }
-.nav-logo{
+ 
+.nav-logo {
      max-width: 149px;
 }
-.logo{
+ 
+.logo {
      width: 100%;
 }
+ 
 ul {
      list-style: none;
-     display: flex; /* Make the ul a flex container */
-     gap: 20px; /* Space between items */
- }
-li{
-     display: inline;
+     display: flex; 
+     gap: 2rem; /* Space between items */
 }
-ul li a{
+ 
+li {
+     display: inline;
+ }
+ 
+ul li a {
+     font-size: large;
      text-decoration: none;
      color: #fff;
-     font-family: Arial, Helvetica, sans-serif;
+     font-family: "Plus Jakarta Sans";
 }
-
-#nav-b{
+ 
+#nav-b {
      padding: 13px 30px;
      font-size: 16px;
      background: #94c83d;
      cursor: pointer;
      border: none;
      border-radius: 5px;
+     font-family: "Plus Jakarta Sans";
 }
+
+.nav-title{
+    margin-left: 65px;
+    margin-right: 60px;
+    margin-top: 40px;
+}
+
+.lorem{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.lorem-stle{
+    border: 2px solid none;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.lorem-icon{
+    display: flex;
+    margin: 8px;
+}
+
+.lorem-circle{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: #94c83d;
+}
+
+.lorem-icon > p{
+    padding-left: 8px;
+    font-family: "Plus Jakarta Sans";
+    color: #fff;
+}
+
+.sub-title1{
+    color: #fff;
+    padding: 20px 10px;
+    text-align: center;
+    font-family: "Plus Jakarta Sans";
+    opacity: 0.8;
+}
+
+.sub-title2 .p1{
+    color: #fff;
+    text-align: center;
+    font-family: "Plus Jakarta Sans";
+    font-size: 50px;
+    text-transform: capitalize;
+}
+
+.sub-title2 .p2{
+    color: #fff;
+    text-align: center;
+    font-family: "Plus Jakarta Sans";;
+    font-size: 70px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.sub-title3 .p-light{
+    color: #fff;
+    text-align: center;
+    font-family: "Plus Jakarta Sans";
+    font-size: 25px;
+    padding-top: 8px;
+    opacity: 0.6;
+    text-transform: capitalize;
+}
+
+.about-img{
+    margin-top: 60px;
+    margin-left: 90px;
+    margin-right: 90px;
+   position: relative;
+   z-index: 999;
+}
+.img{
+
+    width: 100%;
+    height: 580px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(about.jpg);
+    border-radius: 10px;
+}
+
+/* container-2 */
+
+.container-2{
+    
+    background-image: url("container2.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding:260px 82px 40px 82px ;
+}
+
+.title-container-2{
+   
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    gap: 50px;
+}
+
+.col1-img{
+    width: 550px;
+    height: 570px;
+    background-image: url("col1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+.col2{
+    width: 550px;
+    height: 570px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+
+.lorem2{
+    display: flex;
+    
+}
+.lorem-icon .l2c2{
+    color: black;
+}
+
+.pc1{
+    text-transform: capitalize;
+    font-family: "Plus Jakarta Sans";
+    font-size: 50px;
+
+}
+.pc2{
+    text-transform: capitalize;
+    font-family: "Plus Jakarta Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    letter-spacing: -0.03em;
+    color: #94c83d;
+}
+
+.p1c2{
+    font-family: "Plus Jakarta Sans";
+    font-style: normal;
+    font-size: 16px;
+    letter-spacing: -0.03em;
+    color: #58585a;
+}
+
+.p2c2{
+    font-family: "Plus Jakarta Sans";
+    font-style: normal;
+    font-size: 16px;
+    letter-spacing: -0.03em;
+    color: #58585a;
+}
+
+/* container-3 */
+
+.container-3{
+    background-image: url("container3.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 40px 0;
+}
+
+.title-container-3{
+    padding: 0px 82px;
+}
+
+.lorem3{
+    display: flex;
+    justify-content: center;
+}
+
+.lorem-stle3{
+    border: 2px solid none;
+    border-radius: 20px;
+    background-color: rgb(241, 241, 241);
+}
+
+.lorem-icon3{
+    display: flex;
+    margin: 8px;
+}
+
+.lorem-circle3{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: #94c83d;
+}
+
+.lorem-icon3 .l3c2{
+    padding-left: 10px;
+    padding-right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.joblist-col2{
+    padding: 20px 0px;
+    display: flex;
+    justify-content: center;
+}
+.paracol-2{
+    color: #fff;
+    font-size: 50px;
+    font-family: "Plus Jakarta Sans";
+}
+.spcol-2{
+    padding-left: 10px;
+    color:#94c83d;
+    font-size: 50px;
+    font-family: "Plus Jakarta Sans";
+    font-weight: 600;
+}
+
+/* job-listing */
+.joblist-col3{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.job-heading{
+    color: #fff;
+    font-size: 45px;
+    font-weight: 600;
+    font-family: "Plus Jakarta Sans";
+    font-style: normal;
+}
+
+/* joblist-col2 */
+/* job-title1 */
+.job-title1{
+    background: #fff;
+    padding: 22px 30px;
+    border-radius: 10px;
+}
+
+.faculty{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fn{
+    font-family: "Plus Jakarta Sans";
+    font-style: normal;
+    font-size: 28px;
+    color: #000;
+}
+
+.vw{
+    border: none;
+    padding: 16px 40px;
+    cursor: pointer;
+    border-radius: 5px;
+    background: #e7e7e7;
+}
+
+.apn{
+    border: none;
+    padding: 16px 40px;
+    cursor: pointer;
+    border-radius: 5px;
+    background:#94c83d;
+}
+
+.fee{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0 0 0;
+}
+.tfee{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.fee1{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.dollar-img{
+    width: 11px;
+    display: flex;
+    align-items: center;
+}
+.dollar{
+    width: 100%;
+}
+.fee-amount{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #58585a;
+}
+
+.fee2{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.card-img{
+    width: 15px;
+    display: flex;
+    align-items: center;
+}
+.card{
+    width: 100%;
+}
+.time{
+    display: flex;
+    align-items: center;
+}
+.post-time{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #58585a;
+}
+.location{
+    display: flex;
+    align-items: center;
+    padding: 15px 0 0 0;
+    gap: 8px;
+}
+.loca-img{
+    max-width: 14px;
+    display: flex;
+    align-items: center;
+}
+.limg{
+    width: 100%;
+}
+.rand-loca{
+    font-family: "Plus Jakarta Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #58585a;
+}
+/* job-title2 */
+.job-title2{
+    background: #fff;
+    padding: 22px 30px;
+    border-radius: 10px;
+}
+
+/* joblist-col4 */
+.joblist-col4{
+    padding: 10px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* joblist-col5 */
+.joblist-col5{
+    padding: 10px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.joblist-col6{
+    padding: 30px 0 0 0;
+    display: flex;
+    justify-content: center;
+}
+.vjob{
+    border: none;
+    padding: 16px 40px;
+    border-radius: 5px;
+    background-color: #94C83D;
+    cursor: pointer;
+}
+
+/* container-3 end */
+
+/* container-4 */
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.carousel-row {
+    display: flex;
+    flex-direction: column;
+}
+.carousel-section {
+    background-image: url("container2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 85px 0px;
+}
+.carousel-subtitle {
+    font-family: "Plus Jakarta Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    padding-top: 10px;
+}
+.carousel-title-main {
+    font-family: "Plus Jakarta Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    color: #000;
+    padding: 20px 0 0 0;
+}
+.left-title-span{
+    color: #94C83D;
+    font-weight: 700;
+}
+.carousel-col-2 {
+    display: flex;
+    justify-content: center;
+}
+.carousel-col-3 {
+    padding: 30px 0 0 0;
+}
+.home-demo .item {
+    background-color: #000;
+    padding: 39px 24px;
+    border-radius: 10px;
+}
+  /* .item:hover{
+      background-color: #94c83d;
+    
+    } */
+.item {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.slide-box {
+    background-color: #000;
+    padding: 39px 24px;
+    border-radius: 10px;
+}
+  
+.icon-circle {
+    max-width: 90px;
+    max-height: 90px;
+    background-color: #94c83d;
+    border-radius: 50px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+  
+.plus-icon {
+    width: 100%;
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.carousel-title {
+    font-family: "Plus Jakarta Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    color: #fff;
+}
+.carousel-subtitl {
+    font-family: "Plus Jakarta Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+}
+.carousel-para {
+    font-family: "Plus Jakarta Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+}
+.read-more {
+    font-family: "Plus Jakarta Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #94c83d;
+    text-decoration: underline;
+}
+.hrr {
+    width: 100%;
+}
+/* End Carousel */
+/* footer */
+
+.footer{
+    background-image: url("container3.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 60px 85px 0 85px;
+}
+
+.fr12c{
+
+    display: flex;
+    justify-content: center;
+}
+.footer-logo{
+    max-width: 190px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.fl{
+    width: 100%;
+}
+.footer-title{
+    padding: 30px 0 0 0;
+    font-family: "Plus Jakarta Sans";
+    font-style: normal;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+}
+
+.connect-link{
+    padding: 30px 80px 0 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.about-info{
+    color: #fff;
+    font-size: 17px;
+}
+.phone1{
+    display: flex;
+    gap: 10px;
+}
+.phone2{
+    display: flex;
+    gap: 10px;
+}
+.mail{
+    display: flex;
+    gap: 10px;
+}
+.floca{
+    display: flex;
+    gap: 10px;
+}
+.ph1-icon{
+    max-width: 24px;
+}
+.ph1-img{
+    width: 100%;
+}
+
+.ph2-icon{
+    max-width: 22px;
+}
+.ph2-img{
+    width: 100%;
+}
+
+.mail-icon{
+    max-width: 26px;
+}
+.mail-img{
+    width: 100%;
+}
+
+.loca-icon{
+    max-width: 16px;
+}
+.floca-img{
+    width: 100%;
+}
+
+.footer-media{
+    padding: 30px 0 0 0;
+    display: flex;
+    justify-content: center;
+}
+.media-link{
+    display: flex;
+    gap: 20px;
+}
+.fb-img{
+    max-width: 40px;
+}
+.fbfooter{
+    width: 100%;
+}
+.prin-img{
+    max-width: 40px;
+}
+.prinfooter{
+    width: 100%;
+}
+.posted{
+    padding: 30px 0 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-family: "Plus Jakarta Sans";
+    font-size: 14px;
+}
+.tstaff{
+    color: #94C83D;
+    font-weight: 600;
+}
+
+
+ /* Media Queries for responsiveness */
+ 
+ @media (max-width: 1260px){
+    .connect-link{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .footer{
+        
+        padding: 60px 45px 0 45px;
+    }
+ }
+
+
+ @media only screen and (min-width: 1024px) and (max-width: 1250px) {
+    .container {
+        max-width: 944px;
+    }
+
+    .about-img{
+        margin-top: 60px;
+        margin-left: 60px;
+        margin-right: 60px;
+       position: relative;
+       z-index: 999;
+    }
+    .img{
+    
+        width: 100%;
+        height: 480px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-image: url(about.jpg);
+        border-radius: 10px;
+    }
+
+    .title-container-2{
+   
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        margin-bottom: 40px;
+    }
+    .col1-img{
+        margin-left: auto;
+        margin-right: auto;
+        width: 780px;
+        height: 640px;
+    }
+    
+    .col2{
+        width: 100%;
+        height: 400px;
+        
+    }
+    
+    .lorem2{
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    .pc1{
+        
+        font-size: 40px;
+        display: flex;
+        justify-content: center;
+    
+    }
+    .pc2{
+        
+        font-size: 40px;
+        display: flex;
+        justify-content: center;
+       
+    }
+
+    .p1c2{
+        
+        font-size: 22px;
+        display: flex;
+        text-align: center;
+        
+    }
+    
+    .p2c2{
+            
+        font-size: 22px;
+        display: flex;
+        text-align: center;
+    }
+
+    .nav-button2{
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
+@media only screen and (max-width: 1023px) {
+    .container {
+        padding: 0 20px;
+    }
+
+    .carousel-title-main {
+        font-size: 35px;
+    }
+    
+    .icon-circle {
+        /* width: 65px; */
+        max-width: 65px;
+    }
+    
+    .carousel-title {
+        font-size: 18px;
+    }
+    
+    .carousel-subtitle {
+        font-size: 12px;
+    }
+    
+    .carousel-para {font-size: 14px;}
+    
+    .read-more {
+        font-size: 12px;
+    }
+    
+}
+
+ /* For tablets */
+ @media(max-width: 1024px) {
+
+    .container-1 {
+        height: 50rem;
+        
+   }
+     .nav {
+        padding: 0 2rem;
+     }
+
+     .nav-title{
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 20px;
+    }
+     
+     .sub-title1{
+        font-size: 14px;
+        padding: 10px 5px;
+     }
+     .content-nav {
+        align-items: flex-start;
+     }
+ 
+     .nav-logo {
+        max-width: 140px;
+     }
+ 
+     ul {
+        display: none;
+     }
+ 
+     #nav-b {
+        padding: 10px 20px;
+        font-size: 14px;
+        
+     }
+
+     .sub-title2 .p1{
+        
+        font-size: 35px;
+        
+    }
+    
+    .sub-title2 .p2{
+       
+        font-size: 60px;
+        
+    }
+    
+    .sub-title3 .p-light{
+        
+        font-size: 20px;
+        
+    }
+
+    .about-img{
+        margin-top: 60px;
+        margin-left: 40px;
+        margin-right: 40px;
+
+    }
+    .img{
+    
+        height: 420px;
+        
+    }
+
+    /* .container-2 */
+
+    .container-2{
+        padding: 120px 45px 0px 45px;
+    }
+    .title-container-2{
+   
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+    
+    .col1-img{
+        margin-left: auto;
+        margin-right: auto;
+        width: 620px;
+        height: 570px;
+    }
+    
+    .col2{
+        width: 100%;
+        height: 400px;
+        
+    }
+    
+    .lorem2{
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    .pc1{
+        
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+    
+    }
+    .pc2{
+        
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+       
+    }
+
+    .p1c2{
+        
+        font-size: 18px;
+        display: flex;
+        text-align: center;
+        
+    }
+    
+    .p2c2{
+            
+        font-size: 18px;
+        display: flex;
+        text-align: center;
+    }
+
+    .nav-button2{
+        display: flex;
+        justify-content: center;
+    }
+
+    /* container-3 */
+    .title-container-3{
+        padding: 0px 42px;
+    }
+    
+    .tfee{
+
+        gap: 24px;
+    }
+
+    .joblist-col2{
+        padding: 20px 0px;
+        display:flex;
+        flex-direction:column;
+        text-align: center;
+    }
+    
+.paracol-2{
+    font-size: 60px;
+}
+.spcol-2{
+    
+    font-size: 60px;
+}
+
+ }
+ 
+ @media only screen and (min-width: 581px) and (max-width: 790px){
+
+    .about-img{
+        margin-top: 60px;
+        margin-left: 40px;
+        margin-right: 40px;
+
+    }
+    .img{
+    
+        height: 420px;
+        
+    }
+
+    .col1-img{
+        padding-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 520px;
+        height: 480px;
+    }
+ }
+ 
+ /* For mobile devices */
+ @media (max-width: 580px) {
+
+     .container-1{
+        height: 38rem;
+     }
+
+     .nav {
+        padding: 0 1rem;
+        font-weight: 400;
+        font-size: 16px;
+     }
+ 
+     .content-nav {
+        margin-top: 1rem;
+     }
+ 
+     .nav-logo {
+        max-width: 120px;
+     }
+ 
+     ul {
+        display: none;
+     }
+ 
+     #nav-b {
+        
+        padding: 8px 15px;
+        font-size: 12px;
+        margin-top: 8px;
+     }
+
+     .nav-title{
+        margin-left: 25px;
+        margin-right: 20px;
+        margin-top: 10px;
+    }
+
+     .sub-title1{
+        font-size: 12px;
+        padding: 5px 0;
+     }
+
+     .sub-title2 .p1{
+        
+        font-size: 25px;
+        
+    }
+    
+    .sub-title2 .p2{
+       
+        padding-top: 5px;
+        font-size: 40px;
+        
+    }
+    
+    .sub-title3 .p-light{
+       
+        font-size: 13px;
+        
+    }
+
+    .about-img{
+        margin-top: 40px;
+        margin-left: 20px;
+        margin-right: 20px;
+
+    }
+    .img{
+    
+        height: 270px;
+        
+    }
+     
+    /* container-2 */
+
+    .container-2{
+        padding: 120px 0 40px 0;
+    }
+
+    .title-container-2{
+   
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    
+    .col1-img{
+        margin-left: auto;
+        margin-right: auto;
+        width: 400px;
+        height: 320px;
+    }
+    
+    .col2{
+        width: 100%;
+        padding: 0 25px 0 25px;
+        /* margin-bottom: 50px; */
+        
+    }
+    
+    .lorem2{
+        display: flex;
+        justify-content: center;
+        
+    }
+    
+    .pc1{
+        
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+    }
+    .pc2{
+        
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+       
+    }
+
+    .p1c2{
+        
+        font-size: 16px;
+        display: flex;
+        text-align:justify;
+        
+    }
+    
+    .p2c2{
+            
+        font-size: 16px;
+        display: flex;
+        text-align:justify;
+    }
+
+    .nav-button2{
+        display: flex;
+        justify-content: center;
+    }
+    /* container-3 */
+    .title-container-3{
+        padding: 0px 22px;
+    }
+    .joblist-col2{
+        padding: 20px 0px;
+        display:flex;
+        flex-direction:column;
+        text-align: center;
+    }
+    
+.paracol-2{
+    font-size: 40px;
+}
+.spcol-2{
+    
+    font-size: 40px;
+}
+
+/* job-listing */
+
+.job-heading{
+    
+    font-size: 30px;
+    font-weight: 500;
+    
+}
+
+/* joblist-col2 */
+
+.faculty{
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content:center;
+}
+
+.vw{
+    padding: 12px 30px;
+}
+
+.apn{
+    padding: 12px 30px;
+    
+}
+
+.fee{
+    flex-wrap: wrap;
+    justify-content:center;
+    gap: 12px;
+    padding: 18px 0 0 0;
+}
+.tfee{
+
+    gap: 20px;
+}
+
+.post-time{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    color: #58585a;
+}
+.location{
+    
+    padding: 18px 0 0 0;
+    justify-content: center;
+}
+
+.vjob{
+    padding: 12px 30px;
+   
+}
+
+}
+ 
+@media(max-width: 410px){
+    
+    .img{
+    
+        height: 200px;
+        
+    }
+     
+    /* container-2 */
+
+    .container-2{
+        padding: 120px 0 40px 0;
+    }
+
+    .title-container-2{
+   
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        padding-bottom: 80px;
+    }
+    
+    .col1-img{
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px;
+        height:270px;
+    }
+    
+    .col2{
+        width: 100%;
+        padding: 0 25px 0px 25px;
+        
+    }
+    
+    .pc1{
+        
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+    }
+    .pc2{
+        
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+       
+    }
+
+    .p1c2{
+        
+        font-size: 14px;
+        display: flex;
+        text-align:justify;
+        
+    }
+    
+    .p2c2{
+            
+        font-size: 14px;
+        display: flex;
+        text-align:justify;
+    }
+
+    .nav-button2{
+        display: flex;
+        justify-content: center;
+    }
+    /* container-3 */
+    .title-container-3{
+        padding: 0px 10px;
+    }
+    .joblist-col2{
+        padding: 20px 0px;
+        display:flex;
+        flex-direction:column;
+        text-align: center;
+    }
+    
+.paracol-2{
+    font-size: 40px;
+}
+.spcol-2{
+    
+    font-size: 40px;
+}
+
+/* job-listing */
+
+.job-heading{
+    
+    font-size: 26px;
+    font-weight: 500;
+    
+}
+
+/* joblist-col2 */
+
+.faculty{
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content:center;
+}
+
+.vw{
+    padding: 12px 30px;
+}
+
+.apn{
+    padding: 12px 30px;
+    
+}
+
+.fee{
+    flex-wrap: wrap;
+    justify-content:center;
+    gap: 12px;
+    padding: 18px 0 0 0;
+}
+.tfee{
+    
+    gap: 20px;
+}
+.fee-amount{
+    font-size: small;
+}
+.post-time{
+    
+    font-size: 16px;
+}
+.carousel-title-main{
+    font-size: 32px;
+}
+.footer-title{
+    text-align: justify;
+}
+.about-info{
+    font-size: small;
+    font-family: sans-serif;
+}
+
+.connect-link{ 
+    padding: 30px 0px 0 0px;
+}
+.respfooter{
+     padding: 0 0 0 0; 
+    display: inline-block;
+   
+} 
+.posted{
+    font-size: 11px;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+.tstaff{
+    font-size: 12px;
+}
+}
+ 

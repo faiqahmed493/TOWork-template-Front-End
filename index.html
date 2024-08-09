@@ -1,35 +1,616 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-     <meta charset="UTF-8">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>TOWork.ca</title>
-     <link rel="stylesheet" href="style.css">
-</head>
-<body>
-          <!-- container-1 -->
-           <div class="container-1">
-               <div class="nav">
-                    <div class="content-nav">
-                         <div class="nav-logo">
-                              <img src="https://abdullahansarigit.github.io/to-work-responsive-landing-page/assets/img/logo.png" class="logo">
-                         </div>
-                         <div class="nav-links">
-                              <ul>
-                                   <li><a href="#">Home</a></li>
-                                   <li><a href="#">About Us</a></li>
-                                   <li><a href="#">Job</a></li>
-                                   <li><a href="#">Employers</a></li>
-                                   <li><a href="#">Contact Us</a></li>
-                              </ul>
-                              
-                         </div>
-                         <div class="nav-button">
-                              <button id="nav-b">Apply Now</button>
-                         </div>
-                    </div>
-               </div>
-           </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TOWork.ca</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Plus Jakarta Sans"
+      rel="stylesheet"
+    />
+     <link
+     rel="stylesheet"
+     href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+   />
+   <link
+     rel="stylesheet"
+     href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+   />
 
-</body>
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="logo.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="logo.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="logo.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+  </head>
+  <body>
+    <!-- container-1 -->
+    <div class="container-1">
+      <div class="nav">
+        <div class="content-nav">
+          <div class="nav-logo">
+            <img
+              src="logo.png"
+              class="logo"
+            />
+          </div>
+          <div class="nav-links">
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Job</a></li>
+              <li><a href="#">Employers</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="nav-button">
+            <button id="nav-b">Apply Now</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="title-container">
+        <div class="nav-title">
+          <div class="lorem">
+            <div class="lorem-stle">
+              <div class="lorem-icon">
+                <div class="lorem-circle"></div>
+                <p>Loremispum</p>
+              </div>
+            </div>
+          </div>
+          <div class="sub-title1">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book. essentially
+            unchanged.
+          </div>
+          <div class="sub-title2">
+            <p class="p1">are you looking for permanent or temporary</p>
+            <p class="p2">staffing solutions?</p>
+          </div>
+          <div class="sub-title3">
+            <p class="p-light">
+              our dedicated staff are always ready to assist you.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-img">
+        <div class="img"></div>
+      </div>
+    </div>
+
+    <!-- container-2 -->
+    <div class="container-2">
+      <div class="title-container-2">
+        <div class="col1">
+          <div class="col1-img"></div>
+        </div>
+        <div class="col2">
+          <div class="lorem2">
+            <div class="lorem-stle">
+              <div class="lorem-icon">
+                <div class="lorem-circle"></div>
+                <p class="l2c2">About us</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col2-heading">
+            <span class="pc1">to work is a canadian-owned</span>
+            <span class="pc2">staffing organization serving the GTA</span>
+          </div>
+          <div class="para">
+            <div>
+              <p class="p1c2">
+                Whether the need is for a single individual for a short period
+                of time or personnel for ongoing employment, you can rely on our
+                highly qualified staff. Our focus is to find the best-matched
+                candidates for each job and best-matched job for each candidate!
+              </p>
+            </div>
+            <div>
+              <p class="p2c2">
+                Our business is facilitating the success of your business.We
+                provide our clients with quality staffing services that are
+                professional, reliable, convenient and cost-effective. Contact
+                our representative today to discuss how our staffing solutions
+                can meet your company objectives!
+              </p>
+            </div>
+          </div>
+
+          <div class="nav-button2">
+            <button id="nav-b">Learn More</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- container-3 -->
+    <div class="container-3">
+      <div class="title-container-3">
+        <div class="container">
+          <div class="joblist-col1">
+            <div class="lorem3">
+              <div class="lorem-stle3">
+                <div class="lorem-icon3">
+                  <div class="lorem-circle3"></div>
+                  <p class="l3c2">jobs</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="joblist-col2">
+            <span>
+              <p class="paracol-2">Find Your</p>
+            </span>
+            <span>
+              <p  class="spcol-2">Jobs By Listing</p>
+            </span>
+          </div>
+          <div class="joblist-col3">
+            <div class="job-heading">Health Care</div>
+            <div class="job-title1">
+                <div class="faculty">
+                  <div class="fn">Nurse</div>
+                  <div class="btn">
+                    <button class="vw">View</button>
+                    <button class="apn">Apply Now</button>
+                  </div>
+                </div>
+                <div class="fee">
+                  <div class="tfee">
+                    <div class="fee1">
+                      <div class="dollar-img">
+                        <img src="dollar.png" alt="dollar" class="dollar">
+                      </div>
+                      <p class="fee-amount">$40-45/hour</p>
+                    </div>
+                    <div class="fee2">
+                      <div class="card-img">
+                        <img src="temp.png" alt="card" class="card">
+                      </div>
+                      <p class="fee-amount">$40-45/hour</p>
+                    </div>
+                  </div>
+                  <div class="time">
+                    <p class="post-time">Posted:August 7,2024</p>
+                  </div>
+                </div>
+                <div class="location">
+                  <div class="loca-img">
+                    <img src="location.png" alt="icon" class="limg">
+                  </div>
+                  <p class="rand-loca">Cobourg,ON</p>
+                </div>
+            </div>
+            <div class="job-title2">
+              <div class="faculty">
+                <div class="fn">Nurse</div>
+                <div class="btn">
+                  <button class="vw">View</button>
+                  <button class="apn">Apply Now</button>
+                </div>
+              </div>
+              <div class="fee">
+                <div class="tfee">
+                  <div class="fee1">
+                    <div class="dollar-img">
+                      <img src="dollar.png" alt="dollar" class="dollar">
+                    </div>
+                    <p class="fee-amount">$40-45/hour</p>
+                  </div>
+                  <div class="fee2">
+                    <div class="card-img">
+                      <img src="temp.png" alt="card" class="card">
+                    </div>
+                    <p class="fee-amount">$40-45/hour</p>
+                  </div>
+                </div>
+                <div class="time">
+                  <p class="post-time">Posted:August 7,2024</p>
+                </div>
+              </div>
+              <div class="location">
+                <div class="loca-img">
+                  <img src="location.png" alt="icon" class="limg">
+                </div>
+                <p class="rand-loca">Cobourg,ON</p>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="joblist-col4">
+            <div class="job-heading">Office Support</div>
+            <div class="job-title1">
+                <div class="faculty">
+                  <div class="fn">Worker</div>
+                  <div class="btn">
+                    <button class="vw">View</button>
+                    <button class="apn">Apply Now</button>
+                  </div>
+                </div>
+                <div class="fee">
+                  <div class="tfee">
+                    <div class="fee1">
+                      <div class="dollar-img">
+                        <img src="dollar.png" alt="dollar" class="dollar">
+                      </div>
+                      <p class="fee-amount">$40-45/hour</p>
+                    </div>
+                    <div class="fee2">
+                      <div class="card-img">
+                        <img src="temp.png" alt="card" class="card">
+                      </div>
+                      <p class="fee-amount">$40-45/hour</p>
+                    </div>
+                  </div>
+                  <div class="time">
+                    <p class="post-time">Posted:August 7,2024</p>
+                  </div>
+                </div>
+                <div class="location">
+                  <div class="loca-img">
+                    <img src="location.png" alt="icon" class="limg">
+                  </div>
+                  <p class="rand-loca">Cobourg,ON</p>
+                </div>
+            </div>
+            <div class="job-title2">
+              <div class="faculty">
+                <div class="fn">Worker</div>
+                <div class="btn">
+                  <button class="vw">View</button>
+                  <button class="apn">Apply Now</button>
+                </div>
+              </div>
+              <div class="fee">
+                <div class="tfee">
+                  <div class="fee1">
+                    <div class="dollar-img">
+                      <img src="dollar.png" alt="dollar" class="dollar">
+                    </div>
+                    <p class="fee-amount">$40-45/hour</p>
+                  </div>
+                  <div class="fee2">
+                    <div class="card-img">
+                      <img src="temp.png" alt="card" class="card">
+                    </div>
+                    <p class="fee-amount">$40-45/hour</p>
+                  </div>
+                </div>
+                <div class="time">
+                  <p class="post-time">Posted:August 7,2024</p>
+                </div>
+              </div>
+              <div class="location">
+                <div class="loca-img">
+                  <img src="location.png" alt="icon" class="limg">
+                </div>
+                <p class="rand-loca">Cobourg,ON</p>
+              </div>
+            </div>
+          </div>
+          <div class="joblist-col5">
+            <div class="job-heading">IT</div>
+            <div class="job-title1">
+                <div class="faculty">
+                  <div class="fn">IT Expert</div>
+                  <div class="btn">
+                    <button class="vw">View</button>
+                    <button class="apn">Apply Now</button>
+                  </div>
+                </div>
+                <div class="fee">
+                  <div class="tfee">
+                    <div class="fee1">
+                      <div class="dollar-img">
+                        <img src="dollar.png" alt="dollar" class="dollar">
+                      </div>
+                      <p class="fee-amount">$40-45/hour</p>
+                    </div>
+                    <div class="fee2">
+                      <div class="card-img">
+                        <img src="temp.png" alt="card" class="card">
+                      </div>
+                      <p class="fee-amount">$40-45/hour</p>
+                    </div>
+                  </div>
+                  <div class="time">
+                    <p class="post-time">Posted:August 7,2024</p>
+                  </div>
+                </div>
+                <div class="location">
+                  <div class="loca-img">
+                    <img src="location.png" alt="icon" class="limg">
+                  </div>
+                  <p class="rand-loca">Cobourg,ON</p>
+                </div>
+            </div>
+            <div class="job-title2">
+              <div class="faculty">
+                <div class="fn">IT Expert</div>
+                <div class="btn">
+                  <button class="vw">View</button>
+                  <button class="apn">Apply Now</button>
+                </div>
+              </div>
+              <div class="fee">
+                <div class="tfee">
+                  <div class="fee1">
+                    <div class="dollar-img">
+                      <img src="dollar.png" alt="dollar" class="dollar">
+                    </div>
+                    <p class="fee-amount">$40-45/hour</p>
+                  </div>
+                  <div class="fee2">
+                    <div class="card-img">
+                      <img src="temp.png" alt="card" class="card">
+                    </div>
+                    <p class="fee-amount">$40-45/hour</p>
+                  </div>
+                </div>
+                <div class="time">
+                  <p class="post-time">Posted:August 7,2024</p>
+                </div>
+              </div>
+              <div class="location">
+                <div class="loca-img">
+                  <img src="location.png" alt="icon" class="limg">
+                </div>
+                <p class="rand-loca">Cobourg,ON</p>
+              </div>
+            </div>
+          </div>
+          <div class="joblist-col6">
+            <button class="vjob">View Jobs</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- container-4 -->
+    <section class="carousel-section">
+      <div class="container">
+        <div class="carousel-row">
+          <div class="lorem3">
+            <div class="lorem-stle">
+              <div class="lorem-icon">
+                <div class="lorem-circle"></div>
+                <p class="l2c2">Employers</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-col-2">
+            <p class="carousel-title-main">
+              Find Your <span class="left-title-span">Emlpoyers</span>
+            </p>
+          </div>
+          <div class="carousel-col-3">
+            <div class="home-demo">
+              <div class="owl-carousel owl-theme">
+                <div class="item">
+                  <div class="icon-circle">
+                    <img  class="plus-icon" src="plus.png" />
+                  </div>
+                  <div class="text-container">
+                    <p class="carousel-title">Lorem Ipsum is</p>
+                    <p class="carousel-subtitle">Employer</p>
+                  </div>
+                  <hr class="hrr" />
+
+                  <div>
+                    <p class="carousel-para">
+                      Lorem Ipsum is simply dummy text of the printing and
+                      typesetting industry. Lorem Ipsum has been the industry's
+                    </p>
+                  </div>
+                  <div>
+                    <p class="read-more">Read more</p>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="icon-circle">
+                    <img src="plus.png" class="plus-icon" />
+                  </div>
+                  <div class="text-container">
+                    <p class="carousel-title">Lorem Ipsum is</p>
+                    <p class="carousel-subtitle">Employer</p>
+                  </div>
+                  <hr class="hrr" />
+                  <div>
+                    <p class="carousel-para">
+                      Lorem Ipsum is simply dummy text of the printing and
+                      typesetting industry. Lorem Ipsum has been the industry's
+                    </p>
+                  </div>
+                  <div>
+                    <p class="read-more">Read more</p>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="icon-circle">
+                    <img src="plus.png" class="plus-icon" />
+                  </div>
+                  <div class="text-container">
+                    <p class="carousel-title">Lorem Ipsum is</p>
+                    <p class="carousel-subtitle">Employer</p>
+                  </div>
+                  <hr class="hrr" />
+                  <div>
+                    <p class="carousel-para">
+                      Lorem Ipsum is simply dummy text of the printing and
+                      typesetting industry. Lorem Ipsum has been the industry's
+                    </p>
+                  </div>
+                  <div>
+                    <p class="read-more">Read more</p>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="icon-circle">
+                    <img src="plus.png" class="plus-icon" />
+                  </div>
+                  <div class="text-container">
+                    <p class="carousel-title">Lorem Ipsum is</p>
+                    <p class="carousel-subtitle">Employer</p>
+                  </div>
+                  <hr class="hrr" />
+                  <div>
+                    <p class="carousel-para">
+                      Lorem Ipsum is simply dummy text of the printing and
+                      typesetting industry. Lorem Ipsum has been the industry's
+                    </p>
+                  </div>
+                  <div>
+                    <p class="read-more">Read more</p>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="icon-circle">
+                    <img src="plus.png" class="plus-icon" />
+                  </div>
+                  <div class="text-container">
+                    <p class="carousel-title">Lorem Ipsum is</p>
+                    <p class="carousel-subtitle">Employer</p>
+                  </div>
+                  <hr class="hrr" />
+                  <div>
+                    <p class="carousel-para">
+                      Lorem Ipsum is simply dummy text of the printing and
+                      typesetting industry. Lorem Ipsum has been the industry's
+                    </p>
+                  </div>
+                  <div>
+                    <p class="read-more">Read more</p>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="icon-circle">
+                    <img src="plus.png" class="plus-icon" />
+                  </div>
+                  <div class="text-container">
+                    <p class="carousel-title">Lorem Ipsum is</p>
+                    <p class="carousel-subtitle">Employer</p>
+                  </div>
+                  <hr class="hrr" />
+                  <div>
+                    <p class="carousel-para">
+                      Lorem Ipsum is simply dummy text of the printing and
+                      typesetting industry. Lorem Ipsum has been the industry's
+                    </p>
+                  </div>
+                  <div>
+                    <p class="read-more">Read more</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <div class="footer">
+      <div class="fr12c">
+        <div class="footer-logo">
+          <img src="logo.png" alt="logo" class="fl">
+        </div>
+      </div>
+      <div class="footer-title">
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+        when an unknown printer took a galley of type and scrambled it to make a type
+        specimen book. It has survived not only five centuries, but also the leap into
+        electronic typesetting, remaining essentially unchanged."
+      </div>
+
+      <div class="connect-link">
+        <div class="phone1">
+          <div class="ph1-icon">
+            <img src="phone.png" alt="phone-icon" class="ph1-img">
+          </div>
+          <div class="about-info">647-901-9134</div>
+        </div>
+        <div class="phone2">
+          <div class="ph2-icon">
+            <img src="phone2.png" alt="phone-icon" class="ph2-img">
+          </div>
+          <div class="about-info">1-888-952-6379</div>
+        </div>
+        <div class="mail">
+          <div class="mail-icon">
+            <img src="mail.png" alt="mail-icon" class="mail-img">
+          </div>
+          <div class="about-info">info@toworks.ca</div>
+        </div>
+        <div class="floca">
+          <div class="loca-icon">
+            <img src="location.png" alt="location-icon" class="floca-img">
+          </div>
+          <div class="about-info">100 Westmore Drive, Unit12 Toronto ON M9V 5C3</div>
+        </div>
+      </div>
+
+      <div class="footer-media">
+        <div class="media-link">
+          <div class="fb-img">
+            <img src="fb.png" alt="logo" class="fbfooter">
+          </div>
+          <div class="prin-img">
+            <img src="printest.png" alt="logo" class="prinfooter">
+          </div>
+        </div>
+      </div>
+      <div class="respfooter">
+      <span class="posted">© 2022 — 
+        <p class="tstaff">To Works Staffing</p>
+        — All Rights Reserved.
+      </span>
+      </div>
+    </div>
+
+
+
+    <!-- script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <!-- Carousel Script -->
+    <script>
+      $(function () {
+        // Owl Carousel
+        var owl = $(".owl-carousel");
+        owl.owlCarousel({
+          items: 3,
+          margin: 10,
+          loop: true,
+          nav: true,
+          responsiveClass:true,
+    responsive:{
+        0:{
+            items:1,
+            nav:true
+        },
+        600:{
+            items:2,
+            nav:false
+        },
+        1000:{
+            items:3,
+            nav:true,
+            loop:false
+        }
+    }
+        });
+      });
+    </script>
+  </body>
 </html>
